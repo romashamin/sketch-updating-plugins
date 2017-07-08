@@ -3,7 +3,7 @@
   "description": "Trying to setup Sketch updating system",
   "author": "Roman Shamin",
   "homepage": "https://github.com/romashamin/sketch-updating-plugins",
-  "version": 1.0,
+  "version": 1.2,
   "identifier": "com.github.romashamin.sketch-updating-plugins",
   "appcast": "https://raw.githubusercontent.com/romashamin/sketch-updating-plugins/master/appcast.xml",
   "compatibleVersion": 3,

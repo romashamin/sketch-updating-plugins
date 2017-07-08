@@ -6,15 +6,15 @@
     <description>Trying to setup Sketch updating system</description>
     <language>en</language>
       <item>
-        <title>Version 1.0</title>
+        <title>Version 1.2</title>
         <description>
           <![CDATA[
             <ul>
-              <li>Just test v1.0</li>
+              <li>Version 1.2 is here!</li>
             </ul>
           ]]>
         </description>
-        <enclosure url="https://github.com/romashamin/sketch-updating-plugins/archive/master.zip" sparkle:version="1.0" />
+        <enclosure url="https://github.com/romashamin/sketch-updating-plugins/archive/master.zip" sparkle:version="1.2" />
       </item>
   </channel>
 </rss>

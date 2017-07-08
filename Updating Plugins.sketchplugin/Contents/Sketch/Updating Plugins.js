@@ -9,7 +9,7 @@ var onShutdown = function(context) {
 }
 
 var onStartup = function(context) {
-  pluginVersion = '1.0';
+  pluginVersion = '1.2';
 }
 
 var onRun = function(context) {
