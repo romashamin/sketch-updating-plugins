@@ -14,7 +14,7 @@
             </ul>
           ]]>
         </description>
-        <enclosure url="https://github.com/romashamin/sketch-updating-plugins/archive/master.zip" sparkle:version="1.1" />
+        <enclosure url="https://github.com/romashamin/sketch-updating-plugins/archive/master.zip" sparkle:version="1.0" />
       </item>
   </channel>
 </rss>
