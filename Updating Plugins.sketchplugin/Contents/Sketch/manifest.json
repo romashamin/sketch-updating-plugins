@@ -1,0 +1,34 @@
+{
+  "name": "Updating Plugins",
+  "description": "Trying to setup Sketch updating system",
+  "author": "Roman Shamin",
+  "homepage": "https://github.com/romashamin/sketch-updating-plugins",
+  "version": 1.0,
+  "identifier": "com.github.romashamin.sketch-updating-plugins",
+  "appcast": "https://raw.githubusercontent.com/romashamin/sketch-updating-plugins/master/appcast.xml",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name"       : "Say Hello",
+      "identifier" : "say-hello",
+      "shortcut"   : "cmd shift h",
+      "script"     : "Updating Plugins.js",
+      "handler"    : "onRun"
+    },
+    {
+      "script"    : "Updating Plugins.js",
+      "handlers"  : {
+        "actions" : {
+          "Startup.finish"  : "onStartup",
+          "Shutdown.finish" : "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "items": [
+      "say-hello"
+    ]
+  }
+}
