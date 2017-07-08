@@ -19,4 +19,4 @@ var onRun = function(context) {
   document.showMessage(pluginName + ' ' + pluginVersion + ' is saying: Hello!');
 }
 
-onRun(context)
+//onRun(context)
