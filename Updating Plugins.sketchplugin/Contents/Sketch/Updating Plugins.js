@@ -1,22 +1,16 @@
-var pluginVersion;
-
 var onShutdown = function(context) {
-  var action = context.actionContext;
-  var document = action.document;
-
-  document.hideMessage();
-  document.showMessage('Shutdown');
+  // event on the plugin that's being updated
 }
 
 var onStartup = function(context) {
-  pluginVersion = '1.2';
+  // event on the plugin that is installed
 }
 
 var onRun = function(context) {
   var document = context.document;
   var pluginName = 'Updating Plugins';
 
-  document.showMessage(pluginName + ' ' + pluginVersion + ' is saying: Hello!');
+  document.showMessage(pluginName + ' is saying: Hello!');
 }
 
 //onRun(context)

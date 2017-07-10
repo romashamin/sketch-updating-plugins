@@ -20,8 +20,8 @@
       "script"    : "Updating Plugins.js",
       "handlers"  : {
         "actions" : {
-          "Startup.finish"  : "onStartup",
-          "Shutdown.finish" : "onShutdown"
+          "Startup"  : "onStartup",
+          "Shutdown" : "onShutdown"
         }
       }
     }
